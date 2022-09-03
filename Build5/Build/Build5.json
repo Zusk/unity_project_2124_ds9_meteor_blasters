@@ -11,6 +11,7 @@
 "backgroundColor": "#231F20",
 "cacheControl": {"default": "must-revalidate"},
 "developmentBuild": false,
+"matchWebGLToCanvasSize": false
 "multithreading": false,
 "unityVersion": "2019.4.4f1"
 }
