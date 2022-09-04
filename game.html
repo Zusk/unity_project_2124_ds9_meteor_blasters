@@ -39,25 +39,25 @@ body  {
 }
 
 #wrap {
-  width: 1100px;
-  height: 110px;
-  padding: 0;
+  width: 900px;
+  height: 900px;
+  padding: 20px;
   overflow: hidden;
 }
 
 #scaled-frame {
   width: 1000px;
   height: 1200px;
-  border: 0px;
+  border: 20px;
 }
 
 #scaled-frame {
   zoom: 1;
   -moz-transform: scale(1);
   -moz-transform-origin: 0 0;
-  -o-transform: scale(1);
+  -o-transform: scale(0.75);
   -o-transform-origin: 0 -50;
-  -webkit-transform: scale(1);
+  -webkit-transform: scale(0.75);
   -webkit-transform-origin: 0 0;
 }
 
@@ -70,7 +70,9 @@ body  {
 <div class="main">
 <div class="grid-container">
 <div class="grid-item">
-<iframe src="https://zusk.github.io/unity_project_2124_ds9_meteor_blasters/Build8/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="0px" marginwidth="px" height=800 width=100% position=absolute></iframe>
+<div id="wrap">
+<iframe src="https://zusk.github.io/unity_project_2124_ds9_meteor_blasters/Build8/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="0px" marginwidth="px" height=800 width=800 position=absolute></iframe>
+</div>
 </div>
 <div id="ds9banner">
 <div id="grid-item">
@@ -90,5 +92,4 @@ Made this in a day on September 2nd, 2022! Was getting a little rusty in Unity, 
 </div>
 </div>
 </body>
-</html> 
-
+</html>
