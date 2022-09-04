@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<style>
+body  {
+  background:
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) no-repeat center fixed,
+    url("/zusk_files/dotr/dmg.gif");
+}
+#ds9banner {
+  border-radius: 5px;
+  background: rgb(186, 186, 186);
+  border: 6px ridge rgb(125, 125, 125);
+  padding: 5px; 
+  max-width: 800px;
+  padding-bottom: 5%;
+  font-size: 80%;
+  box-shadow:20px 20px 25px 5px rgba(125, 125, 125, 0.15);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-container-banner {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#wrap {
+  width: 900px;
+  height: 900px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#scaled-frame {
+  width: 1000px;
+  height: 1200px;
+  border: 0px;
+}
+
+#scaled-frame {
+  zoom: 1;
+  -moz-transform: scale(1);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.75);
+  -o-transform-origin: 0 -50;
+  -webkit-transform: scale(0.75);
+  -webkit-transform-origin: 0 0;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #scaled-frame {
+    zoom: 1;
+  }
+}
+</style>
+<div class="main">
+<div class="grid-container">
+<div class="grid-item">
+<div id="wrap">
+<iframe src="https://zusk.github.io/unity_project_2124_ds9_meteor_blasters/Build8/" style="border:0px #000000 none;" name="Game name" scrolling="no" frameborder="1" marginheight="0px" marginwidth="px" height=800 width=800 position=absolute></iframe>
+</div>
+</div>
+<div id="ds9banner">
+<div id="grid-item">
+<b>MISSION DESCRIPTION:</b><br>
+Captain Sisko! A swarm of meteorites are coming towards the WORMHOLE! Starfleet has asked that you get into the DEFIANT and stop them!
+<br><br>
+<b>CONTROLS:</b><br>
+Arrow Keys, or WASD to move.<br>
+Mouse 1, or Spacebar to fire.<br><br>
+<b>ABOUT:</b><br>
+Made this in a day on September 2nd, 2022! Was getting a little rusty in Unity, so figured a little day project would be good for me. Happy with how this ended up!
+</div>
+<div id="grid-item">
+<br>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html> 
+
